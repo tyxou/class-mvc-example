@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22pt;
+}
+
+.intro,
+.info,
+.outro {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.intro button,
+.outro button {
+  width: 7em;
+  height: 2em;
+  outline: none;
+  font-size: 0.75em;
+  border-radius: 12px;
+  margin-left: 30%;
+}
+
+.info div.controls {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info div.controls button {
+  width: 7em;
+  height: 2em;
+  outline: none;
+  font-size: 0.75em;
+  border-radius: 12px;
+}
+
